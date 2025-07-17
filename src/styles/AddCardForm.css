@@ -1,0 +1,53 @@
+.add-card-form {
+  background: white;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.add-card-textarea {
+  width: 100%;
+  min-height: 60px;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #172b4d;
+}
+
+.add-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.btn-primary {
+  background: #0079bf;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #005a8b;
+}
+
+.btn-secondary {
+  background: #f4f5f7;
+  color: #172b4d;
+}
+
+.btn-secondary:hover {
+  background: #e4e6ea;
+}

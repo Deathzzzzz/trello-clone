@@ -1,0 +1,46 @@
+.card {
+  background: white;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.card.dragging {
+  opacity: 0.5;
+  transform: rotate(5deg);
+}
+
+.card-content {
+  color: #172b4d;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.card-labels {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.label {
+  height: 8px;
+  border-radius: 4px;
+  min-width: 40px;
+}
+
+.label.green { background: #61bd4f; }
+.label.yellow { background: #f2d600; }
+.label.orange { background: #ff9f1a; }
+.label.red { background: #eb5a46; }
+.label.purple { background: #c377e0; }
+.label.blue { background: #0079bf; }
